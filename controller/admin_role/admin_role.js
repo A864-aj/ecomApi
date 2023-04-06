@@ -1,4 +1,4 @@
-const connection = require('../../model/dbConnect');
+const connection = require('../../model/dbconnect');
 
 const getRoles = (req, res) => {
     let sql_query = `SELECT * from admin_role`

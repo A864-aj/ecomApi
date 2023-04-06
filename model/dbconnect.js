@@ -4,7 +4,8 @@ let connection=sql.createConnection({
     user:"root",
     password:"",
     host:"localhost",
-    database:"onlinebazar"
+    database:"onlinebazar",
+    port:"3306"
 });
 
 module.exports=connection;

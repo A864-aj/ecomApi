@@ -1,4 +1,4 @@
-const connection = require('../../model/dbConnect');
+const connection = require('../../model/dbconnect');
 
 const getCustomerDetails = (req, res) => {
     let sql_query = `SELECT * from customer`
